@@ -55,8 +55,44 @@
     _tableView.tableFooterView = [self tableFooterView];
     [self.view addSubview:_tableView];
     // Do any additional setup after loading the view.
+    [self databaseOperation];
 }
 
+- (void) databaseOperation {
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *docDir = [[paths firstObject] copy];
+    NSString *dbPath = [docDir stringByAppendingString:@"dss.db"];
+    FMDatabase *db = [FMDatabase databaseWithPath:dbPath];
+    if (![db open]) {
+        return;
+    }
+    NSLog(@"ddatabase path : %@",dbPath);
+//    NSString *personSql = @"CREATE TABLE 'person' ('id' INTEGER PRIMARY KEY AUTOINCREMENT  NOT NULL ,'person_id' VARCHAR(255),'person_name' VARCHAR(255),'person_age' VARCHAR(255),'person_number'VARCHAR(255)) ";
+//    NSString *carSql = @"CREATE TABLE 'car' ('id' INTEGER PRIMARY KEY AUTOINCREMENT  NOT NULL ,'own_id' VARCHAR(255),'car_id' VARCHAR(255),'car_brand' VARCHAR(255),'car_price'VARCHAR(255)) ";
+//    NSString *inserSql = @"insert into person (person_id,person_name,person_age,person_number) values (?,?,?,?)";
+    
+//    NSString *isExistTable = @"SELECT COUNT(*) FROM dbPath where type='table' and name='contact_friend'";
+//    id ret = [db executeQuery:isExistTable];
+    
+    NSString *friendSql = @"CREATE TABLE 'contact_friend' ('id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,'nick_name' VARCHAR(255),'remark_name' VARCHAR(255),'im_userid' VARCHAR(255))";
+    
+    NSString *customerSql = @"CREATE TABLE 'contact_customer' ('id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,'real_name' VARCHAR(255),'phone_num' VARCHAR(255),'im_userid' VARCHAR(255))";
+    NSString *insertFriendSql = @"insert into 'contact_friend' ('nick_name','remark_name','im_userid') values (?,?,?)";
+    
+    NSString *insertCustomerdSql = @"insert into 'contact_customer' ('real_name','phone_num','im_userid') values (?,?,?)";
+    
+    [db executeUpdate:friendSql];
+    [db executeUpdate:customerSql];
+    
+    [db executeUpdate:insertFriendSql,@"AAA",@"AAA1",@"0000001"];
+    [db executeUpdate:insertCustomerdSql,@"东北人",@"13300010001",@"0000001"];
+    
+    
+
+   // [db executeUpdate:inserSql,@"personid1",@"personname1",@"18",@"number1"];
+
+    [db close];
+}
 - (UIView*)tableFooterView
 {
     UIView* view = [[UIView alloc]

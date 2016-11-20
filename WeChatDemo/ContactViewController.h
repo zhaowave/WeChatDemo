@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "FMDatabase.h"
 @interface ContactViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) NSMutableDictionary *dataDict;
 @property (nonatomic, strong) NSMutableArray *indexArray;
