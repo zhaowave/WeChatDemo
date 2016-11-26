@@ -5,12 +5,14 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "617D1515D96BD025FAFF9F30F51F229EB787DAA0" : 9223372036854775807,
-    "04101981B66E318109934C9516F88D824BB96459" : 9223372036854775807
+    "04101981B66E318109934C9516F88D824BB96459" : 9223372036854775807,
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5C2DAC1-B950-47B4-9C6B-DC93A79DA579",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "617D1515D96BD025FAFF9F30F51F229EB787DAA0" : "WeChatDemo\/",
-    "04101981B66E318109934C9516F88D824BB96459" : "fmdb\/"
+    "04101981B66E318109934C9516F88D824BB96459" : "fmdb\/",
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : "AFNetworking\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "WeChatDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhaowave\/WeChatDemo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "617D1515D96BD025FAFF9F30F51F229EB787DAA0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AFNetworking\/AFNetworking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8"
     }
   ]
 }

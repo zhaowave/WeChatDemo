@@ -8,6 +8,8 @@
 
 #import "ContactViewController.h"
 #import "ContactTableViewCell.h"
+#import "AFNetworking.h"
+#import "PinYin4Objc.h"
 
 @interface ContactViewController ()
 
@@ -55,7 +57,34 @@
     _tableView.tableFooterView = [self tableFooterView];
     [self.view addSubview:_tableView];
     // Do any additional setup after loading the view.
-    [self databaseOperation];
+    //[self databaseOperation];
+    NSString *name = @"赵伟";
+    HanyuPinyinOutputFormat *outFormat = [[HanyuPinyinOutputFormat alloc] init];
+    [outFormat setToneType:ToneTypeWithoutTone];
+    [outFormat setVCharType:VCharTypeWithV];
+    [outFormat setCaseType:CaseTypeLowercase];
+    NSString *pinyin = [PinyinHelper toHanyuPinyinStringWithNSString:name withHanyuPinyinOutputFormat:outFormat withNSString:@""];
+    if (pinyin) {
+        NSString *nameHeadChar = [NSString stringWithFormat:@"%c",[pinyin characterAtIndex:0]];
+        NSLog(@"%@",nameHeadChar);
+
+    }
+        NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+    NSURL *URL = [NSURL URLWithString:@"http://httpbin.org/get"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+    NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+        if (error) {
+            NSLog(@"error :%@",error);
+        } else {
+            NSLog(@"%@ ------%@",response,responseObject);
+            //NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:responseObject options:kNilOptions error:nil];
+            
+            NSString *ip = responseObject[@"origin"];
+            NSLog(@"%@",ip);
+        }
+    }];
+    [dataTask resume];
 }
 
 - (void) databaseOperation {
