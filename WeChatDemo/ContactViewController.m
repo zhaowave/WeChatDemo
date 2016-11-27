@@ -57,7 +57,7 @@
     _tableView.tableFooterView = [self tableFooterView];
     [self.view addSubview:_tableView];
     // Do any additional setup after loading the view.
-    //[self databaseOperation];
+    [self databaseOperation];
     NSString *name = @"赵伟";
     HanyuPinyinOutputFormat *outFormat = [[HanyuPinyinOutputFormat alloc] init];
     [outFormat setToneType:ToneTypeWithoutTone];
@@ -100,8 +100,13 @@
 //    NSString *carSql = @"CREATE TABLE 'car' ('id' INTEGER PRIMARY KEY AUTOINCREMENT  NOT NULL ,'own_id' VARCHAR(255),'car_id' VARCHAR(255),'car_brand' VARCHAR(255),'car_price'VARCHAR(255)) ";
 //    NSString *inserSql = @"insert into person (person_id,person_name,person_age,person_number) values (?,?,?,?)";
     
-//    NSString *isExistTable = @"SELECT COUNT(*) FROM dbPath where type='table' and name='contact_friend'";
-//    id ret = [db executeQuery:isExistTable];
+    NSString *isExistTable = @"SELECT COUNT(*) FROM sqlite_sequence where name='contact_friend'";
+    FMResultSet *ret = [db executeQuery:isExistTable];
+    int count = 0;
+    if (ret.next) {
+        count = [ret intForColumnIndex:0];
+    }
+    
     
     NSString *friendSql = @"CREATE TABLE 'contact_friend' ('id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,'nick_name' VARCHAR(255),'remark_name' VARCHAR(255),'im_userid' VARCHAR(255))";
     
@@ -110,14 +115,25 @@
     
     NSString *insertCustomerdSql = @"insert into 'contact_customer' ('real_name','phone_num','im_userid') values (?,?,?)";
     
-    [db executeUpdate:friendSql];
-    [db executeUpdate:customerSql];
+    if (count == 0) {
+        [db executeUpdate:friendSql];
+        [db executeUpdate:customerSql];
+    }
     
-    [db executeUpdate:insertFriendSql,@"AAA",@"AAA1",@"0000001"];
-    [db executeUpdate:insertCustomerdSql,@"东北人",@"13300010001",@"0000001"];
+    //[db executeUpdate:insertFriendSql,@"AAA",@"AAA1",@"0000001"];
+    //[db executeUpdate:insertCustomerdSql,@"东北人",@"13300010001",@"0000001"];
+    
+    NSTimeInterval beginTime = [[NSDate date] timeIntervalSince1970]*1000;
     
     
-
+    NSString *querySQL =  @"select f.nick_name,c.real_name from contact_friend as f ,contact_customer as c where f.im_userid=c.phone_num";
+    FMResultSet *queryResult = [db executeQuery:querySQL];
+    while (queryResult.next) {
+        NSString *realName = [queryResult stringForColumnIndex:1];
+    }
+    NSTimeInterval endTime = [[NSDate date] timeIntervalSince1970]*1000;
+    long timeSpace = endTime-beginTime;
+    
    // [db executeUpdate:inserSql,@"personid1",@"personname1",@"18",@"number1"];
 
     [db close];
