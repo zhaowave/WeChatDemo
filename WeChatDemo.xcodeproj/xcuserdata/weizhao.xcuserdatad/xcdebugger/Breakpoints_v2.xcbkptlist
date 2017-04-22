@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeChatDemo/MeViewController.m"
-            timestampString = "501089362.741203"
+            timestampString = "502381987.989291"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "-viewDidLoad"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -48,7 +48,7 @@
             startingLineNumber = "170"
             endingLineNumber = "170"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -64,7 +64,7 @@
             startingLineNumber = "156"
             endingLineNumber = "156"
             landmarkName = "-tableView:numberOfRowsInSection:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,7 +80,7 @@
             startingLineNumber = "111"
             endingLineNumber = "111"
             landmarkName = "-databaseOperation"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,13 +96,13 @@
             startingLineNumber = "81"
             endingLineNumber = "81"
             landmarkName = "-viewDidLoad"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeChatDemo/ContactViewController.m"
@@ -112,13 +112,13 @@
             startingLineNumber = "72"
             endingLineNumber = "72"
             landmarkName = "-viewDidLoad"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeChatDemo/ContactViewController.m"
@@ -128,13 +128,13 @@
             startingLineNumber = "78"
             endingLineNumber = "78"
             landmarkName = "-viewDidLoad"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeChatDemo/ContactViewController.m"
@@ -144,7 +144,7 @@
             startingLineNumber = "68"
             endingLineNumber = "68"
             landmarkName = "-viewDidLoad"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -170,29 +170,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeChatDemo/ContactViewController.m"
-            timestampString = "501949366.360428"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "-databaseOperation"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeChatDemo/ContactViewController.m"
             timestampString = "501951237.710928"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "139"
             endingLineNumber = "139"
             landmarkName = "-databaseOperation"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

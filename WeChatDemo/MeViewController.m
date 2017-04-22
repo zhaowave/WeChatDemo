@@ -9,6 +9,8 @@
 #import "MeViewController.h"
 #import "PersonInfoModel.h"
 #import "MeTableViewCell.h"
+#import "WeChatWebViewController.h"
+#import "MBProgressHUD.h"
 
 @interface MeViewController ()
 
@@ -29,6 +31,10 @@
     
     //self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view.
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    self.tabBarController.tabBar.hidden = NO;
 }
 
 - (void) initializeData {
@@ -85,6 +91,16 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+//    cell.selected = NO;
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.section == 0 ) {
+        WeChatWebViewController *webViewController = [[WeChatWebViewController alloc] init];
+        [self.navigationController pushViewController:webViewController animated:YES];
+    }
+
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return _dataArray.count;

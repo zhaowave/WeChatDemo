@@ -135,7 +135,7 @@
     long timeSpace = endTime-beginTime;
     
    // [db executeUpdate:inserSql,@"personid1",@"personname1",@"18",@"number1"];
-
+    [self performSelector:NSSelectorFromString(@"databaseOperation")];
     [db close];
 }
 - (UIView*)tableFooterView

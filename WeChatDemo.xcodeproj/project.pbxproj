@@ -7,37 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C92AC7331DE4A741005544B8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7121DE4A741005544B8 /* AFHTTPSessionManager.m */; };
-		C92AC7341DE4A741005544B8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7151DE4A741005544B8 /* AFNetworkReachabilityManager.m */; };
-		C92AC7351DE4A741005544B8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7171DE4A741005544B8 /* AFSecurityPolicy.m */; };
-		C92AC7361DE4A741005544B8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7191DE4A741005544B8 /* AFURLRequestSerialization.m */; };
-		C92AC7371DE4A741005544B8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC71B1DE4A741005544B8 /* AFURLResponseSerialization.m */; };
-		C92AC7381DE4A741005544B8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC71D1DE4A741005544B8 /* AFURLSessionManager.m */; };
-		C92AC7391DE4A741005544B8 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7201DE4A741005544B8 /* AFAutoPurgingImageCache.m */; };
-		C92AC73A1DE4A741005544B8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7221DE4A741005544B8 /* AFImageDownloader.m */; };
-		C92AC73B1DE4A741005544B8 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7241DE4A741005544B8 /* AFNetworkActivityIndicatorManager.m */; };
-		C92AC73C1DE4A741005544B8 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7261DE4A741005544B8 /* UIActivityIndicatorView+AFNetworking.m */; };
-		C92AC73D1DE4A741005544B8 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7281DE4A741005544B8 /* UIButton+AFNetworking.m */; };
-		C92AC73E1DE4A741005544B8 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC72B1DE4A741005544B8 /* UIImageView+AFNetworking.m */; };
-		C92AC73F1DE4A741005544B8 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC72E1DE4A741005544B8 /* UIProgressView+AFNetworking.m */; };
-		C92AC7401DE4A741005544B8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7301DE4A741005544B8 /* UIRefreshControl+AFNetworking.m */; };
-		C92AC7411DE4A741005544B8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7321DE4A741005544B8 /* UIWebView+AFNetworking.m */; };
-		C92AC7511DE9E4C3005544B8 /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7451DE9E4C3005544B8 /* ChineseToPinyinResource.m */; };
-		C92AC7521DE9E4C3005544B8 /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7471DE9E4C3005544B8 /* HanyuPinyinOutputFormat.m */; };
-		C92AC7531DE9E4C3005544B8 /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7491DE9E4C3005544B8 /* NSString+PinYin4Cocoa.m */; };
-		C92AC7541DE9E4C3005544B8 /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC74C1DE9E4C3005544B8 /* PinyinFormatter.m */; };
-		C92AC7551DE9E4C3005544B8 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC74E1DE9E4C3005544B8 /* PinyinHelper.m */; };
-		C92AC7561DE9E4C3005544B8 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = C92AC7501DE9E4C3005544B8 /* unicode_to_hanyu_pinyin.txt */; };
-		C92AC7641DE9ECDC005544B8 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7591DE9ECDC005544B8 /* FMDatabase.m */; };
-		C92AC7651DE9ECDC005544B8 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC75B1DE9ECDC005544B8 /* FMDatabaseAdditions.m */; };
-		C92AC7661DE9ECDC005544B8 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC75D1DE9ECDC005544B8 /* FMDatabasePool.m */; };
-		C92AC7671DE9ECDC005544B8 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC75F1DE9ECDC005544B8 /* FMDatabaseQueue.m */; };
-		C92AC7681DE9ECDC005544B8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7621DE9ECDC005544B8 /* FMResultSet.m */; };
-		C92AC7691DE9ECDC005544B8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C92AC7631DE9ECDC005544B8 /* Info.plist */; };
+		85E532557AE54CB0F202F22B /* libPods-WeChatDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5306692AB95A62923BE9A401 /* libPods-WeChatDemo.a */; };
+		B2C19391792F6B8F1806453E /* libPods-WeChatDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5DF6DF165938DE44FED395 /* libPods-WeChatDemoTests.a */; };
+		C92AC7721DF05E05005544B8 /* WeChatWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92AC7711DF05E05005544B8 /* WeChatWebViewController.m */; };
 		C9332B9B1DDA057700E62063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9332B9A1DDA057700E62063 /* main.m */; };
 		C9332B9E1DDA057700E62063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9332B9D1DDA057700E62063 /* AppDelegate.m */; };
 		C9332BA11DDA057700E62063 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9332BA01DDA057700E62063 /* ViewController.m */; };
-		C9332BA41DDA057700E62063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9332BA21DDA057700E62063 /* Main.storyboard */; };
 		C9332BA61DDA057700E62063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9332BA51DDA057700E62063 /* Assets.xcassets */; };
 		C9332BA91DDA057700E62063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9332BA71DDA057700E62063 /* LaunchScreen.storyboard */; };
 		C9332BB41DDA057700E62063 /* WeChatDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9332BB31DDA057700E62063 /* WeChatDemoTests.m */; };
@@ -57,6 +32,7 @@
 		C9F638EF1DDE09500084DB9E /* Discovery.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F638EE1DDE09500084DB9E /* Discovery.xcassets */; };
 		C9F638F11DDE095F0084DB9E /* Contacts.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F638F01DDE095F0084DB9E /* Contacts.xcassets */; };
 		C9F638F31DDE096F0084DB9E /* Message.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F638F21DDE096F0084DB9E /* Message.xcassets */; };
+		DC5173A391895A28F64ECE1E /* libPods-WeChatDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD69370ECAB5C67E4FA13A70 /* libPods-WeChatDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,70 +53,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C92AC7111DE4A741005544B8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		C92AC7121DE4A741005544B8 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		C92AC7131DE4A741005544B8 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		C92AC7141DE4A741005544B8 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		C92AC7151DE4A741005544B8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		C92AC7161DE4A741005544B8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		C92AC7171DE4A741005544B8 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		C92AC7181DE4A741005544B8 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		C92AC7191DE4A741005544B8 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		C92AC71A1DE4A741005544B8 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		C92AC71B1DE4A741005544B8 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		C92AC71C1DE4A741005544B8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		C92AC71D1DE4A741005544B8 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		C92AC71F1DE4A741005544B8 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
-		C92AC7201DE4A741005544B8 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
-		C92AC7211DE4A741005544B8 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
-		C92AC7221DE4A741005544B8 /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
-		C92AC7231DE4A741005544B8 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		C92AC7241DE4A741005544B8 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
-		C92AC7251DE4A741005544B8 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		C92AC7261DE4A741005544B8 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		C92AC7271DE4A741005544B8 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		C92AC7281DE4A741005544B8 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		C92AC7291DE4A741005544B8 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		C92AC72A1DE4A741005544B8 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		C92AC72B1DE4A741005544B8 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		C92AC72C1DE4A741005544B8 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		C92AC72D1DE4A741005544B8 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		C92AC72E1DE4A741005544B8 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		C92AC72F1DE4A741005544B8 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		C92AC7301DE4A741005544B8 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		C92AC7311DE4A741005544B8 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		C92AC7321DE4A741005544B8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		C92AC7441DE9E4C3005544B8 /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
-		C92AC7451DE9E4C3005544B8 /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
-		C92AC7461DE9E4C3005544B8 /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
-		C92AC7471DE9E4C3005544B8 /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
-		C92AC7481DE9E4C3005544B8 /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
-		C92AC7491DE9E4C3005544B8 /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
-		C92AC74A1DE9E4C3005544B8 /* PinYin4Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin4Objc.h; sourceTree = "<group>"; };
-		C92AC74B1DE9E4C3005544B8 /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
-		C92AC74C1DE9E4C3005544B8 /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
-		C92AC74D1DE9E4C3005544B8 /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
-		C92AC74E1DE9E4C3005544B8 /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
-		C92AC7501DE9E4C3005544B8 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
-		C92AC7581DE9ECDC005544B8 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		C92AC7591DE9ECDC005544B8 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		C92AC75A1DE9ECDC005544B8 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		C92AC75B1DE9ECDC005544B8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		C92AC75C1DE9ECDC005544B8 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		C92AC75D1DE9ECDC005544B8 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		C92AC75E1DE9ECDC005544B8 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		C92AC75F1DE9ECDC005544B8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		C92AC7601DE9ECDC005544B8 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		C92AC7611DE9ECDC005544B8 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		C92AC7621DE9ECDC005544B8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		C92AC7631DE9ECDC005544B8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D42BA3C092827FDB7BF79FB /* Pods-WeChatDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatDemoTests/Pods-WeChatDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		489132DED66C1E5F131B0C54 /* Pods-WeChatDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatDemoTests/Pods-WeChatDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		526DB045552FF908DAD63276 /* Pods-WeChatDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatDemoUITests/Pods-WeChatDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5306692AB95A62923BE9A401 /* libPods-WeChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D040FAF390BA658FD85EBE /* Pods-WeChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatDemo/Pods-WeChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5DF6DF165938DE44FED395 /* libPods-WeChatDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83D5EBC7BF1E238FF78200B /* Pods-WeChatDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatDemoUITests/Pods-WeChatDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C92AC7701DF05E05005544B8 /* WeChatWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWebViewController.h; sourceTree = "<group>"; };
+		C92AC7711DF05E05005544B8 /* WeChatWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWebViewController.m; sourceTree = "<group>"; };
 		C9332B961DDA057700E62063 /* WeChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9332B9A1DDA057700E62063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9332B9C1DDA057700E62063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9332B9D1DDA057700E62063 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9332B9F1DDA057700E62063 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C9332BA01DDA057700E62063 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C9332BA31DDA057700E62063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9332BA51DDA057700E62063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9332BA81DDA057700E62063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9332BAA1DDA057700E62063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -174,6 +101,8 @@
 		C9F638EE1DDE09500084DB9E /* Discovery.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discovery.xcassets; sourceTree = "<group>"; };
 		C9F638F01DDE095F0084DB9E /* Contacts.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Contacts.xcassets; sourceTree = "<group>"; };
 		C9F638F21DDE096F0084DB9E /* Message.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Message.xcassets; sourceTree = "<group>"; };
+		CD69370ECAB5C67E4FA13A70 /* libPods-WeChatDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8527892D1818112EC605B7B /* Pods-WeChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatDemo/Pods-WeChatDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B53A8C1DE02D4A00D2C8FD /* libsqlite3.tbd in Frameworks */,
+				85E532557AE54CB0F202F22B /* libPods-WeChatDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C19391792F6B8F1806453E /* libPods-WeChatDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,113 +127,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5173A391895A28F64ECE1E /* libPods-WeChatDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C92AC7101DE4A741005544B8 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				C92AC7111DE4A741005544B8 /* AFHTTPSessionManager.h */,
-				C92AC7121DE4A741005544B8 /* AFHTTPSessionManager.m */,
-				C92AC7131DE4A741005544B8 /* AFNetworking.h */,
-				C92AC7141DE4A741005544B8 /* AFNetworkReachabilityManager.h */,
-				C92AC7151DE4A741005544B8 /* AFNetworkReachabilityManager.m */,
-				C92AC7161DE4A741005544B8 /* AFSecurityPolicy.h */,
-				C92AC7171DE4A741005544B8 /* AFSecurityPolicy.m */,
-				C92AC7181DE4A741005544B8 /* AFURLRequestSerialization.h */,
-				C92AC7191DE4A741005544B8 /* AFURLRequestSerialization.m */,
-				C92AC71A1DE4A741005544B8 /* AFURLResponseSerialization.h */,
-				C92AC71B1DE4A741005544B8 /* AFURLResponseSerialization.m */,
-				C92AC71C1DE4A741005544B8 /* AFURLSessionManager.h */,
-				C92AC71D1DE4A741005544B8 /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		C92AC71E1DE4A741005544B8 /* UIKit+AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				C92AC71F1DE4A741005544B8 /* AFAutoPurgingImageCache.h */,
-				C92AC7201DE4A741005544B8 /* AFAutoPurgingImageCache.m */,
-				C92AC7211DE4A741005544B8 /* AFImageDownloader.h */,
-				C92AC7221DE4A741005544B8 /* AFImageDownloader.m */,
-				C92AC7231DE4A741005544B8 /* AFNetworkActivityIndicatorManager.h */,
-				C92AC7241DE4A741005544B8 /* AFNetworkActivityIndicatorManager.m */,
-				C92AC7251DE4A741005544B8 /* UIActivityIndicatorView+AFNetworking.h */,
-				C92AC7261DE4A741005544B8 /* UIActivityIndicatorView+AFNetworking.m */,
-				C92AC7271DE4A741005544B8 /* UIButton+AFNetworking.h */,
-				C92AC7281DE4A741005544B8 /* UIButton+AFNetworking.m */,
-				C92AC7291DE4A741005544B8 /* UIImage+AFNetworking.h */,
-				C92AC72A1DE4A741005544B8 /* UIImageView+AFNetworking.h */,
-				C92AC72B1DE4A741005544B8 /* UIImageView+AFNetworking.m */,
-				C92AC72C1DE4A741005544B8 /* UIKit+AFNetworking.h */,
-				C92AC72D1DE4A741005544B8 /* UIProgressView+AFNetworking.h */,
-				C92AC72E1DE4A741005544B8 /* UIProgressView+AFNetworking.m */,
-				C92AC72F1DE4A741005544B8 /* UIRefreshControl+AFNetworking.h */,
-				C92AC7301DE4A741005544B8 /* UIRefreshControl+AFNetworking.m */,
-				C92AC7311DE4A741005544B8 /* UIWebView+AFNetworking.h */,
-				C92AC7321DE4A741005544B8 /* UIWebView+AFNetworking.m */,
-			);
-			path = "UIKit+AFNetworking";
-			sourceTree = "<group>";
-		};
-		C92AC7421DE9E4C3005544B8 /* PinYin4Objc */ = {
-			isa = PBXGroup;
-			children = (
-				C92AC7431DE9E4C3005544B8 /* Classes */,
-				C92AC74F1DE9E4C3005544B8 /* Resources */,
-			);
-			path = PinYin4Objc;
-			sourceTree = "<group>";
-		};
-		C92AC7431DE9E4C3005544B8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C92AC7441DE9E4C3005544B8 /* ChineseToPinyinResource.h */,
-				C92AC7451DE9E4C3005544B8 /* ChineseToPinyinResource.m */,
-				C92AC7461DE9E4C3005544B8 /* HanyuPinyinOutputFormat.h */,
-				C92AC7471DE9E4C3005544B8 /* HanyuPinyinOutputFormat.m */,
-				C92AC7481DE9E4C3005544B8 /* NSString+PinYin4Cocoa.h */,
-				C92AC7491DE9E4C3005544B8 /* NSString+PinYin4Cocoa.m */,
-				C92AC74A1DE9E4C3005544B8 /* PinYin4Objc.h */,
-				C92AC74B1DE9E4C3005544B8 /* PinyinFormatter.h */,
-				C92AC74C1DE9E4C3005544B8 /* PinyinFormatter.m */,
-				C92AC74D1DE9E4C3005544B8 /* PinyinHelper.h */,
-				C92AC74E1DE9E4C3005544B8 /* PinyinHelper.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C92AC74F1DE9E4C3005544B8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C92AC7501DE9E4C3005544B8 /* unicode_to_hanyu_pinyin.txt */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		C92AC7571DE9ECDC005544B8 /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				C92AC7581DE9ECDC005544B8 /* FMDatabase.h */,
-				C92AC7591DE9ECDC005544B8 /* FMDatabase.m */,
-				C92AC75A1DE9ECDC005544B8 /* FMDatabaseAdditions.h */,
-				C92AC75B1DE9ECDC005544B8 /* FMDatabaseAdditions.m */,
-				C92AC75C1DE9ECDC005544B8 /* FMDatabasePool.h */,
-				C92AC75D1DE9ECDC005544B8 /* FMDatabasePool.m */,
-				C92AC75E1DE9ECDC005544B8 /* FMDatabaseQueue.h */,
-				C92AC75F1DE9ECDC005544B8 /* FMDatabaseQueue.m */,
-				C92AC7601DE9ECDC005544B8 /* FMDB.h */,
-				C92AC7611DE9ECDC005544B8 /* FMResultSet.h */,
-				C92AC7621DE9ECDC005544B8 /* FMResultSet.m */,
-				C92AC7631DE9ECDC005544B8 /* Info.plist */,
-			);
-			path = fmdb;
-			sourceTree = "<group>";
-		};
 		C9332B8D1DDA057600E62063 = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +142,7 @@
 				C9332BBD1DDA057700E62063 /* WeChatDemoUITests */,
 				C9332B971DDA057700E62063 /* Products */,
 				C9B53A8A1DE02D4A00D2C8FD /* Frameworks */,
+				DE4034860F084BD8E6BCB40A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -335,7 +167,6 @@
 				C9496F3C1DDB3CC60012EE8C /* Message */,
 				C9332B9F1DDA057700E62063 /* ViewController.h */,
 				C9332BA01DDA057700E62063 /* ViewController.m */,
-				C9332BA21DDA057700E62063 /* Main.storyboard */,
 				C9332BA51DDA057700E62063 /* Assets.xcassets */,
 				C9332BA71DDA057700E62063 /* LaunchScreen.storyboard */,
 				C9332BAA1DDA057700E62063 /* Info.plist */,
@@ -416,6 +247,8 @@
 			children = (
 				C9496F411DDB3DF40012EE8C /* WeChatTabBarViewController.h */,
 				C9496F421DDB3DF40012EE8C /* WeChatTabBarViewController.m */,
+				C92AC7701DF05E05005544B8 /* WeChatWebViewController.h */,
+				C92AC7711DF05E05005544B8 /* WeChatWebViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -424,6 +257,9 @@
 			isa = PBXGroup;
 			children = (
 				C9B53A8B1DE02D4A00D2C8FD /* libsqlite3.tbd */,
+				5306692AB95A62923BE9A401 /* libPods-WeChatDemo.a */,
+				BA5DF6DF165938DE44FED395 /* libPods-WeChatDemoTests.a */,
+				CD69370ECAB5C67E4FA13A70 /* libPods-WeChatDemoUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -431,10 +267,6 @@
 		C9B53A8D1DE1825500D2C8FD /* util */ = {
 			isa = PBXGroup;
 			children = (
-				C92AC7571DE9ECDC005544B8 /* fmdb */,
-				C92AC7421DE9E4C3005544B8 /* PinYin4Objc */,
-				C92AC7101DE4A741005544B8 /* AFNetworking */,
-				C92AC71E1DE4A741005544B8 /* UIKit+AFNetworking */,
 			);
 			name = util;
 			sourceTree = "<group>";
@@ -505,6 +337,19 @@
 			name = images;
 			sourceTree = "<group>";
 		};
+		DE4034860F084BD8E6BCB40A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96D040FAF390BA658FD85EBE /* Pods-WeChatDemo.debug.xcconfig */,
+				D8527892D1818112EC605B7B /* Pods-WeChatDemo.release.xcconfig */,
+				1D42BA3C092827FDB7BF79FB /* Pods-WeChatDemoTests.debug.xcconfig */,
+				489132DED66C1E5F131B0C54 /* Pods-WeChatDemoTests.release.xcconfig */,
+				C83D5EBC7BF1E238FF78200B /* Pods-WeChatDemoUITests.debug.xcconfig */,
+				526DB045552FF908DAD63276 /* Pods-WeChatDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -512,9 +357,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9332BC31DDA057700E62063 /* Build configuration list for PBXNativeTarget "WeChatDemo" */;
 			buildPhases = (
+				7EC1003BDA719D8ADD3B41D0 /* [CP] Check Pods Manifest.lock */,
 				C9332B921DDA057600E62063 /* Sources */,
 				C9332B931DDA057600E62063 /* Frameworks */,
 				C9332B941DDA057600E62063 /* Resources */,
+				49970393152C5E3DD92AAA4E /* [CP] Embed Pods Frameworks */,
+				86AB51AB25BAC318250B06D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -529,9 +377,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9332BC61DDA057700E62063 /* Build configuration list for PBXNativeTarget "WeChatDemoTests" */;
 			buildPhases = (
+				675F9BCC65B16C4481388918 /* [CP] Check Pods Manifest.lock */,
 				C9332BAB1DDA057700E62063 /* Sources */,
 				C9332BAC1DDA057700E62063 /* Frameworks */,
 				C9332BAD1DDA057700E62063 /* Resources */,
+				1749D18A3A0C70A997A046BF /* [CP] Embed Pods Frameworks */,
+				2F5BA4D3B3E5535C30F3A928 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -547,9 +398,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9332BC91DDA057700E62063 /* Build configuration list for PBXNativeTarget "WeChatDemoUITests" */;
 			buildPhases = (
+				606D75B5CAD83B03BEC64251 /* [CP] Check Pods Manifest.lock */,
 				C9332BB61DDA057700E62063 /* Sources */,
 				C9332BB71DDA057700E62063 /* Frameworks */,
 				C9332BB81DDA057700E62063 /* Resources */,
+				34FC14A2A924FE90FB0020FC /* [CP] Embed Pods Frameworks */,
+				F8013587FCA56392B03A448A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -614,12 +468,9 @@
 				C9F638EF1DDE09500084DB9E /* Discovery.xcassets in Resources */,
 				C9F638F31DDE096F0084DB9E /* Message.xcassets in Resources */,
 				C9332BA91DDA057700E62063 /* LaunchScreen.storyboard in Resources */,
-				C92AC7561DE9E4C3005544B8 /* unicode_to_hanyu_pinyin.txt in Resources */,
 				C9332BA61DDA057700E62063 /* Assets.xcassets in Resources */,
 				C9F638F11DDE095F0084DB9E /* Contacts.xcassets in Resources */,
-				C9332BA41DDA057700E62063 /* Main.storyboard in Resources */,
 				C9F638E91DDDF6000084DB9E /* Me.xcassets in Resources */,
-				C92AC7691DE9ECDC005544B8 /* Info.plist in Resources */,
 				C9F638ED1DDE05080084DB9E /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,6 +491,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1749D18A3A0C70A997A046BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatDemoTests/Pods-WeChatDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F5BA4D3B3E5535C30F3A928 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatDemoTests/Pods-WeChatDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34FC14A2A924FE90FB0020FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatDemoUITests/Pods-WeChatDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49970393152C5E3DD92AAA4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatDemo/Pods-WeChatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606D75B5CAD83B03BEC64251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		675F9BCC65B16C4481388918 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EC1003BDA719D8ADD3B41D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86AB51AB25BAC318250B06D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatDemo/Pods-WeChatDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8013587FCA56392B03A448A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatDemoUITests/Pods-WeChatDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9332B921DDA057600E62063 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -647,41 +636,17 @@
 			files = (
 				C9496F4C1DDB3F940012EE8C /* ContactViewController.m in Sources */,
 				C9332BA11DDA057700E62063 /* ViewController.m in Sources */,
-				C92AC73D1DE4A741005544B8 /* UIButton+AFNetworking.m in Sources */,
-				C92AC7411DE4A741005544B8 /* UIWebView+AFNetworking.m in Sources */,
-				C92AC73F1DE4A741005544B8 /* UIProgressView+AFNetworking.m in Sources */,
-				C92AC7331DE4A741005544B8 /* AFHTTPSessionManager.m in Sources */,
-				C92AC7541DE9E4C3005544B8 /* PinyinFormatter.m in Sources */,
-				C92AC7371DE4A741005544B8 /* AFURLResponseSerialization.m in Sources */,
-				C92AC73E1DE4A741005544B8 /* UIImageView+AFNetworking.m in Sources */,
-				C92AC7641DE9ECDC005544B8 /* FMDatabase.m in Sources */,
 				C9332B9E1DDA057700E62063 /* AppDelegate.m in Sources */,
-				C92AC7521DE9E4C3005544B8 /* HanyuPinyinOutputFormat.m in Sources */,
-				C92AC7531DE9E4C3005544B8 /* NSString+PinYin4Cocoa.m in Sources */,
-				C92AC7341DE4A741005544B8 /* AFNetworkReachabilityManager.m in Sources */,
-				C92AC73A1DE4A741005544B8 /* AFImageDownloader.m in Sources */,
 				C9496F431DDB3DF40012EE8C /* WeChatTabBarViewController.m in Sources */,
 				C9496F491DDB3F7F0012EE8C /* DiscoveryViewController.m in Sources */,
-				C92AC7681DE9ECDC005544B8 /* FMResultSet.m in Sources */,
-				C92AC7671DE9ECDC005544B8 /* FMDatabaseQueue.m in Sources */,
 				C9F638E41DDDDCCF0084DB9E /* MeTableViewCell.m in Sources */,
-				C92AC7361DE4A741005544B8 /* AFURLRequestSerialization.m in Sources */,
 				C9332B9B1DDA057700E62063 /* main.m in Sources */,
-				C92AC7391DE4A741005544B8 /* AFAutoPurgingImageCache.m in Sources */,
-				C92AC7651DE9ECDC005544B8 /* FMDatabaseAdditions.m in Sources */,
 				C9496F501DDB3FAE0012EE8C /* MessageViewController.m in Sources */,
+				C92AC7721DF05E05005544B8 /* WeChatWebViewController.m in Sources */,
 				C9DDF05D1DDF3D700046870A /* ContactTableViewCell.m in Sources */,
-				C92AC7351DE4A741005544B8 /* AFSecurityPolicy.m in Sources */,
-				C92AC7551DE9E4C3005544B8 /* PinyinHelper.m in Sources */,
-				C92AC7401DE4A741005544B8 /* UIRefreshControl+AFNetworking.m in Sources */,
 				C9F638E11DDDDB370084DB9E /* PersonInfoModel.m in Sources */,
-				C92AC73B1DE4A741005544B8 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				C9DDF05A1DDF3BE10046870A /* FriendItem.m in Sources */,
-				C92AC7511DE9E4C3005544B8 /* ChineseToPinyinResource.m in Sources */,
-				C92AC73C1DE4A741005544B8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				C92AC7661DE9ECDC005544B8 /* FMDatabasePool.m in Sources */,
 				C9496F461DDB3F670012EE8C /* MeViewController.m in Sources */,
-				C92AC7381DE4A741005544B8 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,14 +682,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9332BA21DDA057700E62063 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9332BA31DDA057700E62063 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9332BA71DDA057700E62063 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -828,28 +785,35 @@
 		};
 		C9332BC41DDA057700E62063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D040FAF390BA658FD85EBE /* Pods-WeChatDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeChatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.learngo.WeChatDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C9332BC51DDA057700E62063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8527892D1818112EC605B7B /* Pods-WeChatDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeChatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.learngo.WeChatDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		C9332BC71DDA057700E62063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D42BA3C092827FDB7BF79FB /* Pods-WeChatDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WeChatDemoTests/Info.plist;
@@ -862,6 +826,7 @@
 		};
 		C9332BC81DDA057700E62063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489132DED66C1E5F131B0C54 /* Pods-WeChatDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WeChatDemoTests/Info.plist;
@@ -874,6 +839,7 @@
 		};
 		C9332BCA1DDA057700E62063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83D5EBC7BF1E238FF78200B /* Pods-WeChatDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WeChatDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -885,6 +851,7 @@
 		};
 		C9332BCB1DDA057700E62063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526DB045552FF908DAD63276 /* Pods-WeChatDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WeChatDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

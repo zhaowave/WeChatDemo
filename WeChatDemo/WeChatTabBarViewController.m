@@ -21,13 +21,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIViewController *messageViewController = [[MessageViewController alloc] init];
+    messageViewController.title = @"消息";
     UIViewController *contactViewController = [[ContactViewController alloc] init];
+    contactViewController.title = @"通讯录";
     UIViewController *discoverrViewController = [[DiscoveryViewController alloc] init];
+    discoverrViewController.title = @"发现";
     UIViewController *meViewController = [[MeViewController alloc] init];
+    meViewController.title = @"我";
     
     self.viewControllers = @[[self initialNaviControllerWithViewController:messageViewController andImage:@"tabbar_mainframe" andSelectImage:@"tabbar_mainframeHL"],[self initialNaviControllerWithViewController:contactViewController andImage:@"tabbar_contacts" andSelectImage:@"tabbar_contactsHL"],[self initialNaviControllerWithViewController:discoverrViewController andImage:@"tabbar_discover" andSelectImage:@"tabbar_discoverHL"],[self initialNaviControllerWithViewController:meViewController andImage:@"tabbar_me" andSelectImage:@"tabbar_meHL"]];
-    self.tabBar.tintColor =
-    [UIColor colorWithRed:9 / 255.0 green:187 / 255.0 blue:7 / 255.0 alpha:1];
+        [UIColor colorWithRed:9 / 255.0 green:187 / 255.0 blue:7 / 255.0 alpha:1];
 }
 
 - (void)didReceiveMemoryWarning {
